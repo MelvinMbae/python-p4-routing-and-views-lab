@@ -44,6 +44,9 @@ def math(num1,operation,num2):
                 output = num1 % num2
             except ZeroDivisionError:
                 return("Error: num2 cannot be equal to 0")
+            
+        case _:
+            return "Invalid Operation"
 
             
     return f"{output}"
